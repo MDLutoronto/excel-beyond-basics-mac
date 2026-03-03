@@ -7,6 +7,7 @@ permalink: "/"  #! Remove this if not the homepage
 ---
 
 # Excel: Beyond The Basics - Mac
+{: #Excel}
 
 ## About this workshop
 {: #aboutthisworkshop}
@@ -36,14 +37,14 @@ TTC datasets downloaded from [City of Toronto - Open Data](https://open.toronto.
 
  
 
-Table of Contents
------------------
+## Table of Contents
+{: #tableofcontents}
 
 [**Excel: Beyond the Basics**](#Excel)
 
 [About this workshop](#aboutthisworkshop)
 
-[**Table of Contents**](#Table of Contents)
+[**Table of Contents**](#tableofcontents)
 
 + [Getting Started](#gettingstarted)  
 + [Working With Data](#workingwithdata)  
@@ -121,7 +122,7 @@ Table of Contents
 
     <img src='{{ '/assets/images/A11_0.PNG' | relative_url }}' alt='While the cell name is shown on the left, the bar on the right is displaying what is occuring within the cell to display the value it contains' title='' width='421' height='234' />
 
-12. Next, in the current worksheet, **highlight** a few cells containing only number (numeric data) by**clicking and dragging**.
+12. Next, in the current worksheet, **highlight** a few cells containing only number (numeric data) by **clicking and dragging**.
 
     <img src='{{ '/assets/images/A12.png' | relative_url }}' alt='Result of having highlighted only a few cells' title='' width='299' height='169' />
 
@@ -193,7 +194,8 @@ Logical Data
 
     <img src='{{ '/assets/images/C2_1.png' | relative_url }}' alt='Format cells is highlighted on the context menu' title='' width='360' height='502' />
 
-    | **Data alignment** By default, all numeric data (including dates) are what is known as right-aligned, while all text (string data) are left-aligned. This is a helpful way to see when something you entered wasn’t quite right and hadn’t been recognized as the correct kind of data by Excel. |
+    | **Data alignment**    
+    By default, all numeric data (including dates) are what is known as right-aligned, while all text (string data) are left-aligned. This is a helpful way to see when something you entered wasn’t quite right and hadn’t been recognized as the correct kind of data by Excel. |
 
  
 
@@ -214,11 +216,13 @@ Logical Data
 
     <img src='{{ '/assets/images/C6_0.PNG' | relative_url }}' alt='Highlighting the more accounting formats under the extra currency options' title='' width='496' height='287' />
 
-    | **Shortened Numbers in Excel** When you punch in long numeric strings into Excel, say, 12345678901234567890 (20 digits), Excel will generally convert it for you, meaning that the 20 digit number you've just tapped in has been cut back to be only about fifteen significant figures. |
+    | **Shortened Numbers in Excel**    
+    When you punch in long numeric strings into Excel, say, 12345678901234567890 (20 digits), Excel will generally convert it for you, meaning that the 20 digit number you've just tapped in has been cut back to be only about fifteen significant figures. |
 
 7. Let’s go back to the **2024_Bus_Delays sheet**. The values in our “Date” column also look odd, and the culprit is the same! Ensure that the cells under the “Date” column are selected, and then choose data type **Short Date** from the numbers tab of the Home ribbon.
 
-    | **Selecting Multiple Cells** An easy shortcut to selecting all cells below your current selection in a column is to use **Command + SHIFT + ↓**. Note that this selection will only extend to the first blank cell. |
+    | **Selecting Multiple Cells**      
+    An easy shortcut to selecting all cells below your current selection in a column is to use **Command + SHIFT + ↓**. Note that this selection will only extend to the first blank cell. |
 
     <img src='{{ '/assets/images/C7_0.PNG' | relative_url }}' alt='Selecting short date for the column that contains the date information' title='' width='751' height='565' />
 
@@ -226,7 +230,8 @@ Logical Data
 
     <img src='{{ '/assets/images/C8_0.png' | relative_url }}' alt='Highlighting that the column has reflected the change made' title='' width='331' height='257' />
 
-    | **Working with Numbers** Don’t worry if your dates look odd after you copy/pasting into a worksheet. Excel stores dates as sequential serial numbers so that they can be used in calculations. These dates start at January 1, 1900 by default. So this date is serial number 1, which means that January 1, 2024 is serial number 45292 because it is 45,291 days later. These mean the same thing to Excel; the number can always be converted to a date format later on without losing any details. |
+    | **Working with Numbers**      
+    Don’t worry if your dates look odd after you copy/pasting into a worksheet. Excel stores dates as sequential serial numbers so that they can be used in calculations. These dates start at January 1, 1900 by default. So this date is serial number 1, which means that January 1, 2024 is serial number 45292 because it is 45,291 days later. These mean the same thing to Excel; the number can always be converted to a date format later on without losing any details. |
 
  
 
@@ -329,7 +334,7 @@ Conditional formatting allows you to automatically apply formatting, such as col
 
     <img src='{{ '/assets/images/image77.png' | relative_url }}' alt='an overview of the context menu and how it should appear' title='' width='398' height='573' />
 
-4. Only the selected incident types now appear in your view. Notice that **column F** now has a filter graphic on the button, which indicates that a filter has been applied on that column. You’ll also notice hidden row numbers when scrolling through your worksheet - the data is still there, it’s just been hidden from view. **Note**:When you run calculations, Excel will still calculate these hidden rows unless you ask it to ignore hidden rows!
+4. Only the selected incident types now appear in your view. Notice that **column F** now has a filter graphic on the button, which indicates that a filter has been applied on that column. You’ll also notice hidden row numbers when scrolling through your worksheet - the data is still there, it’s just been hidden from view. **Note**: When you run calculations, Excel will still calculate these hidden rows unless you ask it to ignore hidden rows!
 
     <img src='{{ '/assets/images/image079.png' | relative_url }}' alt='Visual notification showing that the column is being filtered' title='' width='396' height='162' />
 
@@ -381,15 +386,15 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
 2. You can use formulas to perform tasks such as adding numbers and multiplying values ​​in cells. Excel can understand and interpret a variety of mathematical operators, including:
 
-    **+ (addition)** 
-    **- (subtraction)** 
-    *** (multiplication)** 
-    **/ (division)**.
+    **+ (addition)**    
+    **- (subtraction)**     
+    *** (multiplication)**  
+    **/ (division)**.   
 
     It can also understand comparison operators, such as:  
-    **= (equal to)** 
-    **> (greater than)** 
-    **< (less than**
+    **= (equal to)**    
+    **> (greater than)**    
+    **< (less than**    
 
     A full list of all operators is available via [Microsoft Support.](https://support.microsoft.com/en-us/office/calculation-operators-and-precedence-in-excel-48be406d-4975-4d31-b2b8-7af9e0e2878a)
 
@@ -444,7 +449,8 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
     <img src='{{ '/assets/images/image111.png' | relative_url }}' alt='displaying the result within cell M2 as 26.35' title='' width='290' height='84' />
 
-    | **Formula not calculating?** Sometimes when using a formula, Excel will show you that formula instead of the results. Check to make sure the data type in your cell is not set to text. If it isn’t, you might have accidentally enabled the “Show Formulas” button on the Formulas ribbon - select this again to turn it off. Finally, check your formula for any typos. A single space before the = sign will mean that Excel won’t recognize your entry as a formula! |
+    | **Formula not calculating?**  
+    Sometimes when using a formula, Excel will show you that formula instead of the results. Check to make sure the data type in your cell is not set to text. If it isn’t, you might have accidentally enabled the “Show Formulas” button on the Formulas ribbon - select this again to turn it off. Finally, check your formula for any typos. A single space before the = sign will mean that Excel won’t recognize your entry as a formula! |
 
  
 
@@ -473,7 +479,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
 7. In cell **B1**, create a new column called “Total_Incidents”. Now let’s start typing our **COUNTIF** formula in cell **B2**. Remember, you can type this formula directly in the cell, or in the formulas bar at the top of your worksheet.
 
-8. The **COUNTIF** functionrequires only two inputs: the **range** and the **criteria**. The range is the cells that you want to count (ie. where to look for matches, each match = 1 count) based on the criteria (ie. what you’re looking up).
+8. The **COUNTIF** function requires only two inputs: the **range** and the **criteria**. The range is the cells that you want to count (ie. where to look for matches, each match = 1 count) based on the criteria (ie. what you’re looking up).
 
     <img src='{{ '/assets/images/J8.png' | relative_url }}' alt='Cell B2 selected with the countif function inputted' title='' width='243' height='134' />
 
@@ -668,7 +674,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
 
     <img src='{{ '/assets/images/M21.png' | relative_url }}' alt='Expanding the Dates under Row labels to show each day of the week' title='' width='199' height='328' />
 
-22. You can expand and collapse the different sections by clicking on the + - beside each, or expand or collapse all fields under the **PivotTable Analyze Ribbon.**Note that when you expand sections in your table, the data in your Chart will adjust as well!
+22. You can expand and collapse the different sections by clicking on the + - beside each, or expand or collapse all fields under the **PivotTable Analyze Ribbon.** Note that when you expand sections in your table, the data in your Chart will adjust as well!
 
     <img src='{{ '/assets/images/image177.png' | relative_url }}' alt='Pivot table analyse, and the text alignment that works with it' title='' width='527' height='142' />
 
