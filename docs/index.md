@@ -2,6 +2,12 @@
 title: "Excel: Beyond The Basics - Mac"
 layout: "home"
 description: "About this workshop   What: This is a beginner to intermediate tutorial, that will allow you to gain a deeper understanding of the uses and types of data that can be manipulated in Excel, an extremely popular spreadsheet software. Through practical exercises using real world data from the Toronto Transit Commission (TTC), you will learn important terminology and software features, and gain a better understanding of Excel’s built-in methods for data manipulation and cleaning, as well as analysis and visualization.    Why: Excel is a popular spreadsheet software that allows you to organize, modify and analyze your data. It remains one of the most widely used software for data analytics. A deeper understanding of Excel will help you better navigate the tool to work with your data sets, in the classroom and beyond.    Who: This tutorial assumes you have used Excel before at a basic level, but haven’t explored all it has to offer. There are no prerequisites or assumptions of knowledge of math, statistics, or programming!   Software: Excel is freely available for download for University of Toronto staff, faculty and students. Note: This tutorial is intended for Mac users. If you are using Windows, check out this tutorial instead.   Code of Conduct: Map & Data Library (MDL) workshops are a welcoming and inclusive environment for learning. To learn more, check out our Code of Conduct.   For help contact: Map & Data Library, mdl@library.utoronto.ca"
+staff:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
 created_date: 2023-02-21
 permalink: "/"  #! Remove this if not the homepage
 ---
@@ -42,33 +48,33 @@ TTC datasets downloaded from [City of Toronto - Open Data](https://open.toronto.
 
 [**Excel: Beyond the Basics**](#Excel)
 
-[About this workshop](#aboutthisworkshop)
+[About this workshop](#about-this-workshop)
 
-[**Table of Contents**](#tableofcontents)
+[**Table of Contents**](#table-of-contents)
 
-+ [Getting Started](#gettingstarted)  
-+ [Working With Data](#workingwithdata)  
-    + [Understanding Data](#understandingdatatypes)  
-        + [Number Data](#number)  
-        + [Text Data](#text)  
-        + [Error Data](#error)  
-        + [Logical Data](#logical)  
-    + [Viewing and Editing Data Types](#viewingandeditingdatatypes)  
-    + [Viewing and Sorting Data](#viewingandsortingdata)  
-    + [Conditional Formatting](#conditionalformatting)  
-    + [Filtering Data](#filteringdata)  
-    + [Transposing Data](#transposingdata)  
-+ [Formulas and Functions](#formulasandfunctions)  
-    + [Using Built in Functions](#usingbuiltinfunctions)  
-    + [Calling data from Other Worksheets](#callingaata)  
-    + [Nested Functions](#nestedfunctions)  
++ [Getting Started](#getting-started)  
++ [Working With Data](#working-with-data)  
+    + [Understanding Data Types](#understanding-data)  
+        + [Number Data](#number-data)  
+        + [Text Data](#text-data)  
+        + [Error Data](#error-data)  
+        + [Logical Data](#logical-data)  
+    + [Viewing and Editing Data Types](#viewing-and-editing-data-types)  
+    + [Viewing and Sorting Data](#viewing-and-sorting-data)  
+    + [Conditional Formatting](#conditional-formatting)  
+    + [Filtering Data](#filtering-data)  
+    + [Transposing Data](#transposing-data)  
++ [Formulas and Functions](#formulas-and-functions)  
+    + [Using Built in Functions](#using-built-in-functions)  
+    + [Calling data from Other Worksheets](#calling-data-from-other-worksheets)  
+    + [Nested Functions](#nested-functions)  
 + [Charts](#charts)  
-+ [Pivot Tables and Pivot Charts](#pivottables)
++ [Pivot Tables and Pivot Charts](#pivot-tables-and-pivot-charts)
 
  
 
 ## Getting Started
-{: #gettingstarted}
+{: #getting-started}
 
 1. Open the file [**Excel_TTCData_2024.xlsx**](https://uoft.me/ExcelWorkshop2025 ) in Excel (you download it alongside this PDF). You can do this either by browsing to the file on your computer and double-clicking on it, or by opening Excel from the Start menu and choosing **File ->  Open**.
 
@@ -137,15 +143,15 @@ TTC datasets downloaded from [City of Toronto - Open Data](https://open.toronto.
  
 
 ## Working with Data
-{: #workingwithdata}
+{: #working-with-data}
 
 ### Understanding Data Types
-{: #understandingdatatypes}
+{: #understanding-data}
 
 There are four different kinds of data in Microsoft Excel: text, number, error, and logical. **Data types** may change when pasting data into a spreadsheet, so it's important to understand what type your data exists as. Since the type of data determines what functions you can perform on it, it's also important to know which ones to use and when to use them.
 
 #### Number Data
-{: #number}
+{: #number-data}
 
 **Number or numerical data** can include any type of number, of any size (including fractions and negatives). There are many different subtypes of numerical data in excel, including whole numbers (integers) and real numbers (decimals), dates and times, phone numbers, and monetary totals in varying currencies.
 
@@ -154,7 +160,7 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
  
 
 #### Text Data
-{: #text}
+{: #text-data}
 
 **Text data** can include letters, numbers, and symbols, and is often used in column names as well as data cells. However, unlike numerical data you can’t perform calculations on text data. Excel will often classify data as text by default if it doesn’t recognize the type, so you may need to manually change the format of your cells before running any calculations! We’ll talk more about this in a minute.
 
@@ -163,7 +169,7 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
  
 
 #### Error Data
-{: #error}
+{: #error-data}
 
 **Error data** will pop into your cell when there is a mistake or missing information when Excel is processing a formula. There are several types of error data in Excel, which are helpful in determining what may have gone wrong. A full list of these errors can be found via [Microsoft support](https://support.microsoft.com/en-us/office/detect-errors-in-formulas-3a8acca5-1d61-4702-80e0-99a36a2822c1)).
 
@@ -174,8 +180,8 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 | **#REF!** | This reference error occurs when we accidentally delete or move the cell we reference in a formula |
 | **#VALUE!** | This error might pop up if you use the wrong data type in a function or formula. For example, if you try to add text using the + operator. |
 
-Logical Data
-{: #logical}
+#### Logical Data
+{: #logical-data}
 
 **Logical data** values are often shown as either TRUE or FALSE. Like with error data, they cannot be typed in Excel manually by the user and instead will show up as a result of an expression or function. Logical data type is useful in making comparisons, creating conditions, testing these conditions, and checking the contents of a cell location.
 
@@ -184,7 +190,7 @@ Logical Data
  
 
 ### Viewing and Editing Data Types
-{: #viewingandeditingdatatypes}
+{: #viewing-and-editing-data-types}
 
 1. When you select a cell in Excel, the data type is visible by default from the **Numbers section** of the **Home** ribbon. You can change the data type by selecting your cells, and then choosing a new option from this drop-down menu.
 
@@ -236,7 +242,7 @@ Logical Data
  
 
 ### Viewing & Sorting Data
-{: #viewingandsortingdata}
+{: #viewing-and-sorting-data}
 
 1. Let’s move to the **2024_Routes** worksheet in our workbook. In this section, we’ll start to look at strategies to manipulate your data to help you make sense of it.
 
@@ -287,7 +293,7 @@ Logical Data
  
 
 ### Conditional Formatting
-{: #conditionalformatting}
+{: #conditional-formatting}
 
 Conditional formatting allows you to automatically apply formatting, such as colour, to cells based on the cell value. This can make it easier to quickly identify cells that meet certain conditions (such as outliers in your data or the top 10% of values). This can also help you to better sort your data, since you can sort by colour using the same method we just applied. To do this, you'll need to **create a conditional formatting rule**.
 
@@ -320,7 +326,7 @@ Conditional formatting allows you to automatically apply formatting, such as col
  
 
 ### Filtering Data
-{: #filteringdata}
+{: #filtering-data}
 
 1. Another key tool to help you explore your data is filtering. On the **Data** tab of the ribbon, in the “Sort & Filter” section, choose **Filter.**
 
@@ -357,7 +363,7 @@ Conditional formatting allows you to automatically apply formatting, such as col
  
 
 ### Transposing Data
-{: #transposingdata}
+{: #transposing-data}
 
 1. Transposing data is another helpful data management task. Switch over to the **5Y_Revenue** tab. Looking at the table, you decide that you wish this data had the years across the top of the table (as column headings) and the months along the side (as row headings).
 
@@ -378,7 +384,7 @@ Conditional formatting allows you to automatically apply formatting, such as col
  
 
 ## Formulas and Functions
-{: #formulasandfunctions}
+{: #formulas-and-functions}
 
 In this section, we’ll start using formulas to explore and analyze our data.
 
@@ -413,7 +419,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
  
 
 ### Using Built in Functions
-{: #usingbuiltinfunctions}
+{: #using-built-in-functions}
 
 1. Rather than type out every calculation by hand, we can use Excel’s built-in functions. Common calculations like averages, medians, sums, and maximums have their own Excel functions. A full list of math and statistical functions in Excel is available from [Microsoft](https://support.microsoft.com/en-us/office/statistical-functions-reference-624dac86-a375-4435-bc25-76d659719ffd).
 
@@ -455,7 +461,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
  
 
 ### Calling Data from Other Worksheets
-{: #callingaata}
+{: #calling-data-from-other-worksheets}
 
 1. Let’s explore another mathematical function in Excel. Say we want to count how many times each bus route logged a delay in 2024. So, we want to know how many rows have 127 (ie. Bus #127) in column B “Route” of our **2024_Bus_Delays** worksheet, to determine which bus routes suffered from the most delays. We can do this using the **COUNTIF** function. This function counts the number of cells that meet a criteria that we set.
 
@@ -516,7 +522,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
  
 
 ### Nested Functions
-{: #nestedfunctions}
+{: #nested-functions}
 
 
 1. Let’s dive a bit more deeply into Formulas. What if you want to calculate or check multiple things in a single line? In these cases, you’ll need to nest your formula. We’ll explore this using another common formula in Excel, the **IF function**.
@@ -601,7 +607,7 @@ In this section, we’ll start using formulas to explore and analyze our data.
  
 
 ## Pivot Tables and Pivot Charts
-{: #pivottables}
+{: #pivot-tables-and-pivot-charts}
 
 1. Pivot Tables and Pivot Charts are another way to graphically represent and analyze your data.
 
