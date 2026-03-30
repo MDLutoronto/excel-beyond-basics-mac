@@ -34,8 +34,7 @@ permalink: "/"  #! Remove this if not the homepage
 
  
 
-Data Sources
-------------
+## Data Sources
 
 TTC datasets downloaded from [City of Toronto - Open Data](https://open.toronto.ca/)
 
@@ -777,8 +776,8 @@ In this section, we’ll start using formulas to explore and analyze our data.
     <img src='{{ '/assets/images/M44.png' | relative_url }}' alt='Final result is shown' title='' width='1118' height='695' />  
  
 
-Learning More
-=============
+## Learning More
+
 
 If you want to gain even more advanced Excel skills, here are a few resources you may find useful:
 
