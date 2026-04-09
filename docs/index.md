@@ -784,5 +784,3 @@ If you want to gain even more advanced Excel skills, here are a few resources yo
 * [The Bridge](https://www.utsc.utoronto.ca/thebridge/bridge-excel-learning-series) at UTSC has an excellent series of video tutorials
 * LinkedInLearning, available from the [Toronto Public Library](https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMEDB0187&R=EDB0187) (you need to have a valid library code to access - this is free!) also has some excellent workshops. Search for Excel workshops, there are a wide range of them, for all versions of Excel
 * Contact the Map & Data Library for further assistance at [mdl@library.utoronto.ca](https://mdl@library.utoronto.ca)
-
-Tools: [Excel](https://mdl.library.utoronto.ca/tools/excel-0)
