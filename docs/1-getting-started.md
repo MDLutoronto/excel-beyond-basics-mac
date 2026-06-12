@@ -3,6 +3,13 @@ title: Getting Started
 parent: "Excel: Beyond The Basics - Mac"
 layout: default
 nav_order: 1
+staff:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Getting Started
@@ -13,7 +20,8 @@ nav_order: 1
 
     <img src='{{ '/assets/images/A2_Getting_Started.png' | relative_url }}' alt='Showing of the worksheet bar across the bottom within Excel' title='' width='401' height='96' />
     
-    | **Worksheet Naming** Choose descriptive names when you name worksheets, so that it’s easy to remember what data they contain. Another good practice is to avoid whitespace - computers struggle to read whitespaces when you automate tasks, so avoiding spaces will even help when you want to refer to a cell in another sheet. Use_underscores or UseCapitalization between words instead. |
+    | **Worksheet Naming** 
+    Choose descriptive names when you name worksheets, so that it’s easy to remember what data they contain. Another good practice is to avoid whitespace - computers struggle to read whitespaces when you automate tasks, so avoiding spaces will even help when you want to refer to a cell in another sheet. Use_underscores or UseCapitalization between words instead. |
 
 3. Across the top of the screen, you have what is known as the **ribbon**. There are a series of tabs across the top, each of which provides access to a range of tools. You’re likely very familiar with this layout, as it is similar across all Microsoft Office applications.
 
@@ -70,3 +78,5 @@ nav_order: 1
 14. You can change the details shown by two finger clicking anywhere in the status bar. Notice also that the status bar contains your zoom tool which lets you zoom in and out on your view as needed.
 
     <img src='{{ '/assets/images/A14_1.png' | relative_url }}' alt='Resulting pop up from two finger clicking the status bar' title='' width='333' height='328' />
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)
