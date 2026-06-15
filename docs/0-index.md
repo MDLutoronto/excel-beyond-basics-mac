@@ -12,6 +12,7 @@ created_date: 2023-02-21
 permalink: "/"  #! Remove this if not the homepage
 nav_order: 0
 has_children: true
+has_toc: false
 ---
 
 # Excel: Beyond The Basics - Mac
@@ -26,7 +27,7 @@ has_children: true
 
 **Software**: Excel is freely available [for download](https://uthrprod.service-now.com/infocomm?id=kb_article_view&sys_kb_id=67619e0997b14e9cffeaf67e6253afeb&spa=1) for University of Toronto staff, faculty and students.
 
-*Note: This tutorial is intended for Mac users. If you are using Windows, check out this* [*tutorial*](https://mdl.library.utoronto.ca/technology/tutorials/excel-beyond-basics-windows) *instead.*
+*Note: This tutorial is intended for Mac users. If you are using Windows, check out this* [*tutorial*](https://mdlutoronto.github.io/excel-beyond-basics-windows/) *instead.*
 
 **Code of Conduct**: Map & Data Library (MDL) workshops are a welcoming and inclusive environment for learning. To learn more, check out our [Code of Conduct](https://mdl.library.utoronto.ca/workshop-code-conduct).
 
@@ -48,4 +49,4 @@ If you want to gain even more advanced Excel skills, here are a few resources yo
 * LinkedInLearning, available from the [Toronto Public Library](https://www.torontopubliclibrary.ca/detail.jsp?Entt=RDMEDB0187&R=EDB0187) (you need to have a valid library code to access - this is free!) also has some excellent workshops. Search for Excel workshops, there are a wide range of them, for all versions of Excel
 * Contact the Map & Data Library for further assistance at [mdl@library.utoronto.ca](https://mdl@library.utoronto.ca)
 
-Tools: [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)

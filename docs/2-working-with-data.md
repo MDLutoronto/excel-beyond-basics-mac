@@ -3,9 +3,26 @@ title: Working with Data
 parent: "Excel: Beyond The Basics - Mac"
 layout: default
 nav_order: 2
+staff:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Working with Data
+* [Understanding Data](#understanding-data-types)
+    + [Number Data](#number-data)
+    + [Text Data](#text-data)
+    + [Error Data](#error-data)
+    + [Logical Data](#logical-data)
+* [Viewing and Editing Data Types](#viewing-and-editing-data-types)
+* [Viewing and Sorting Data](#viewing-and-sorting-data)
+* [Conditional Formatting](#conditional-formatting)
+* [Filtering Data](#filtering-data)
+* [Transposing Data](#transposing-data)
 
 ### Understanding Data Types
 {: #understanding-data}
@@ -146,7 +163,7 @@ There are four different kinds of data in Microsoft Excel: text, number, error, 
 
 12. Click on **+** to add a second variable to sort by ie. **route_long_name**. Excel will sort initially on your first variable, and then those results based on your second variable. Ensure **Sort On** is set to “cell values”, and **Order** is set to “A to Z”. Press **OK**.
 
-    <img src='{{ '/assets/images/D12.png' | relative_url }}' alt='GUI that will then open. add level, checkmark 'my data has headers' and edit the column sorting' title='' width='622' height='286' />
+    <img src='{{ '/assets/images/D12.png' | relative_url }}' alt="GUI that will then open. add level, checkmark 'my data has headers' and edit the column sorting" title='' width='622' height='286' />
 
 13. Our data has been sorted according to the variables we chose.
 
@@ -242,3 +259,5 @@ Conditional formatting allows you to automatically apply formatting, such as col
 5. Now **select and delete** the rows containing the original data; you prefer to use your new version of the table and no longer need the original one. Select **Shift cells up** when prompted - this will move all the cells below up to fill the gap.
 
     <img src='{{ '/assets/images/image093.png' | relative_url }}' alt='highlight the first selection again and delete' title='' width='870' height='470' />
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)

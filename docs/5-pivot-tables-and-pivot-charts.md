@@ -3,6 +3,13 @@ title: Pivot Tables and Pivot Charts
 parent: "Excel: Beyond The Basics - Mac"
 layout: default
 nav_order: 5
+staff:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+maintainer:
+    - name: Kara Handren
+      link: https://library.utoronto.ca/staff/kara-handren
+created_date: 2023-02-21
 ---
 
 ## Pivot Tables and Pivot Charts
@@ -166,10 +173,13 @@ nav_order: 5
 
 43. Click on your Chart Title to adjust. With your chart titles selected, in the formulas bar **type** = and **select** the cell containing your formula. Hit **Enter**. Your Chart Title will now adjust as we select / filter for different Incident Types.
 
-    | **Text Styling Note**     Double clicking on any section of your chart, either the image or the text, will open a Format Data Series tab on the right side of your screen. This will allow you to adjust the colours of your text, as well as other styling options such as applying borders or shadows. |
+    | **Text Styling Note**     
+    Double clicking on any section of your chart, either the image or the text, will open a Format Data Series tab on the right side of your screen. This will allow you to adjust the colours of your text, as well as other styling options such as applying borders or shadows. |
 
     <img src='{{ '/assets/images/M43.png' | relative_url }}' alt='Legend button is highlighted within the Format Legend context menu' title='' width='256' height='350' />
 
 44. You did it! We now have an interactive Pivot Table and Pivot Chart that we can use to quickly analyze what buses have the most delays on any day of the week, and why.
 
     <img src='{{ '/assets/images/M44.png' | relative_url }}' alt='Final result is shown' title='' width='1118' height='695' />  
+
+**Tools:** [Excel](https://mdlutoronto.github.io/tutorials-search/?tool=Excel)
