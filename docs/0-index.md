@@ -29,7 +29,7 @@ has_toc: false
 
 *Note: This tutorial is intended for Mac users. If you are using Windows, check out this* [*tutorial*](https://mdlutoronto.github.io/excel-beyond-basics-windows/) *instead.*
 
-**Code of Conduct**: Map & Data Library (MDL) workshops are a welcoming and inclusive environment for learning. To learn more, check out our [Code of Conduct](https://mdl.library.utoronto.ca/workshop-code-conduct).
+**Code of Conduct**: Map & Data Library (MDL) workshops are a welcoming and inclusive environment for learning. To learn more, check out our [Code of Conduct](https://library.utoronto.ca/policy/mdl-workshop-code-conduct).
 
 **For help contact**: Map & Data Library, [mdl@library.utoronto.ca](mailto:mdl@library.utoronto.ca)
 
